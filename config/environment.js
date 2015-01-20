@@ -40,8 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/bubbles/templates/application';
   }
 
-  return ENV;
 };
